@@ -58,7 +58,7 @@ class Song
   end
   
   def self.alphabetical
-    @@all.sort
+    @@all.sort {|song1, song2| song1.name <==>
   end
   
 end
