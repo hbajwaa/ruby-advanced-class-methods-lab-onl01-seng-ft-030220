@@ -42,7 +42,7 @@ class Song
   def self.new_from_filename(file_name)
     song = Song.new 
     seperate_by_dash = file_name.split(" - ")
-    name = seperate_by_dash[1].split(".mp3")
+    name = seperate_by_dash[1].split(".mp3").join("")
     
     song.name = " "
     artist = file_name.split(" - ")
