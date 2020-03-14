@@ -43,8 +43,7 @@ class Song
     song = Song.new 
     seperate_by_dash = file_name.split(" - ")
     name = seperate_by_dash[1].split(".mp3").join("")
-    
-    song.name = " "
+    song.name = name
     artist = file_name.split(" - ")
     song.artist_name = artist
   end
