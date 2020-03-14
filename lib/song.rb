@@ -46,5 +46,6 @@ class Song
     song.name = name
     artist = seperate_by_dash[0]
     song.artist_name = artist
+    song
   end
 end
